@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>我的博客搭建成功了</title>
+      <link href="2020/12/20/1/"/>
+      <url>2020/12/20/1/</url>
+      
+        <content type="html"><![CDATA[<p>我的博客终于搭建成功了！个人感觉搭建一个博客是相当的不容易！</p><p>本来是打算用“wordpress”搭建一个博客的，但是发现用这个还得买”主机” 那可以是每年的一笔开销啊，感觉就为了一个博客有点不值当的。</p><p>偶然在网上看到有一些大神发布有用hexo+github搭建博客，并且不需要购买主机这类的东西，那感觉简直不要太爽~~~~~</p><p>至于hexo+github的安装方法网上有一堆文章有说到，我这里就不写喽。</p><blockquote><p>本着能白嫖就坚决不花银子的心态，我终于是弄成啦。嘎嘎！</p></blockquote><h2 id="我用的插件"><a href="#我用的插件" class="headerlink" title="我用的插件"></a>我用的插件</h2><p>1.RSS插件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure><p>RSS插件的介绍：<a href="https://www.npmjs.com/package/hexo-generator-feed">https://www.npmjs.com/package/hexo-generator-feed</a></p><p>2.全文搜索</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure><p>全文搜索的介绍：<a href="https://github.com/wzpan/hexo-generator-search">https://github.com/wzpan/hexo-generator-search</a></p><hr><p>好了这是我博客的第一篇文章，就先写到这里吧。</p><p>下一篇文章我写点我用hexo+github搭建我的博客所遇到的“坑”吧，那简直是一部搭建博客的血泪史~~~~~~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 有感而说 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2020/12/19/hello-world/"/>
       <url>2020/12/19/hello-world/</url>
