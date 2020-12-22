@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>这是一个测试</title>
-      <link href="2020/12/22/5/"/>
-      <url>2020/12/22/5/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个测试文章，测试双部署的文章</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>我搭建hexo+github博客所遇到的那些“坑”之文章中插入图片与影音</title>
       <link href="2020/12/21/3/"/>
       <url>2020/12/21/3/</url>
