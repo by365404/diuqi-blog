@@ -6,7 +6,7 @@
   <link href="https://blog.diuqi.net/atom.xml" rel="self"/>
   
   <link href="https://blog.diuqi.net/"/>
-  <updated>2020-12-21T02:45:20.792Z</updated>
+  <updated>2020-12-30T09:32:30.325Z</updated>
   <id>https://blog.diuqi.net/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TeraCloud：日本免费10GB网盘,支持WebDav。</title>
+    <link href="https://blog.diuqi.net/2020/12/30/teracloud/"/>
+    <id>https://blog.diuqi.net/2020/12/30/teracloud/</id>
+    <published>2020-12-30T09:04:36.000Z</published>
+    <updated>2020-12-30T09:32:30.325Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>特别提醒：如果您使用的是免费帐户，并且尚未登录90天，则TeraCLOUD上的帐户和数据将被删除。并且尽量别放牵涉到版权的东西。</strong></p><p>Teracloud是一家日本的网盘服务商，免费套餐10G容量，加上邀请码可获得额外10G。速度还是不错的，比欧美的要好，并且支持WEBDAV（可以直接挂载在电脑上用），要知道支持WEBDAV的网盘并不多。</p><p>首先当然是创建账户，虽然是日文网站，但是有谷歌翻译也很简单。</p><p><a href="https://teracloud.jp/en/">https://teracloud.jp/en/</a></p><p>填入邀请码<strong>XBETM</strong>，可获得另外10G加成。</p><h2 id="Windows挂载"><a href="#Windows挂载" class="headerlink" title="Windows挂载"></a>Windows挂载</h2><p>在“计算机”中单击右键，选择“添加一个网络位置”</p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/ss1.jpg"></p><p>输入WebDav地址：<a href="https://seto.teracloud.jp/dav/">https://seto.teracloud.jp/dav/</a></p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/ss2.jpg"></p><p>单击下一步后，输入自己的用户名和密码</p><p>完成即可。</p><hr><p>总结：TeraCloud在网上也是被很多人称之为老牌网盘，这就是证明了这个网盘还是比较靠谱的，所以值得自己放一些资料什么的，但是也别放一些重要的资料，毕竟这玩意还是小心一点的好哈。</p><p><strong>特别提醒：如果您使用的是免费帐户，并且尚未登录90天，则TeraCLOUD上的帐户和数据将被删除。并且尽量别放牵涉到版权的东西。</strong></p><p>所以总体来说还是值得玩一玩的哈。</p><p>O(∩_∩)O~~~~~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;特别提醒：如果您使用的是免费帐户，并且尚未登录90天，则TeraCLOUD上的帐户和数据将被删除。并且尽量别放牵涉到版权的东西。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Teracloud是一家日本的网盘服务商，免费套餐10G容量，加上邀请码可获得额外10G。速度还</summary>
+      
+    
+    
+    
+    <category term="好物分享" scheme="https://blog.diuqi.net/categories/%E5%A5%BD%E7%89%A9%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="teracloud" scheme="https://blog.diuqi.net/tags/teracloud/"/>
+    
+    <category term="WebDav" scheme="https://blog.diuqi.net/tags/WebDav/"/>
+    
+    <category term="网盘" scheme="https://blog.diuqi.net/tags/%E7%BD%91%E7%9B%98/"/>
+    
+  </entry>
   
   <entry>
     <title>我搭建hexo+github博客所遇到的那些“坑”之文章中插入图片与影音</title>
