@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   
-  <title>Category   : gitee | 丢弃博客</title>
+  <title>记录一次部署一个小网页到gitee的路程   | 丢弃博客</title>
 
   
     <link rel="apple-touch-icon" href="/images/favicon.png">
@@ -86,39 +86,131 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container category-details">
-  <div class="content-title">
-    <h2>
-      <span>gitee</span>
-    </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">记录一次部署一个小网页到gitee的路程</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2021-01-08
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/gitee/" title="gitee">
+                    <b>#</b> gitee
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <p>因为最近家乡这边有了新馆肺炎的疫情，所以我们这边基本全部停工停产了，我也被无一幸免的居家隔离了，所以本着在家闲着也是闲着心态，不如静下心来学习一点网络知识。</p>
+<p>毕竟我是一个连初中都没上完的人，所以在网上找了一个蛮有难度的挑战。</p>
+<p>这个知识点就是：</p>
+<blockquote>
+<p>利用Git部署到gitee的一个项目。</p>
+</blockquote>
+<p>首先我在网络中找到了一款<strong>消消乐</strong>的一个小源码，所以决定把这个段代码部署到gitee中。</p>
+<p>最终结果还是不错的。看一下我的成果：</p>
+<p><a target="_blank" rel="noopener" href="https://diuqi.gitee.io/xiaoxiaole/">https://diuqi.gitee.io/xiaoxiaole/</a></p>
+<hr>
+<h2 id="部署中的故事与解决办法。"><a href="#部署中的故事与解决办法。" class="headerlink" title="部署中的故事与解决办法。"></a>部署中的故事与解决办法。</h2><p>首先我在网上找了一下需要的部署方法，他们分别是：</p>
+<p>第一步git初始化命令。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<p>第二步从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到gitee仓库。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 你的git项目地址</span><br></pre></td></tr></table></figure>
+<p>第三步将码云上的仓库pull到本地文件夹。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+<p>第四步使用git add . （. 表示所有的）或者 git add + 文件名 // 将文件保存到缓存区。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+
+<p>第五步使用git commit -m ‘新添加的文件内容描述’ //添加文件描述</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m ‘新添加的文件内容描述’</span><br></pre></td></tr></table></figure>
+<p>使用git push origin master ，将本地仓库推送到远程仓库。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<p>到这里你的项目就放到码云上了，到码云库页面刷新，你会看到刚刚放上去的文件。</p>
+<hr>
+<p>看看效果：</p>
+<p><a target="_blank" rel="noopener" href="https://diuqi.gitee.io/xiaoxiaole/">https://diuqi.gitee.io/xiaoxiaole/</a></p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2021/01/06/gitee/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2021-01-08
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/gitee/" title="gitee">
+                        <b>#</b> gitee
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
+        </div>
+      
+    </div>
+    
+  <div class="post-catalog" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E4%B8%AD%E7%9A%84%E6%95%85%E4%BA%8B%E4%B8%8E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E3%80%82"><span class="toc-text">部署中的故事与解决办法。</span></a></li></ol>
+    </div>
   </div>
+
   
-    <div class="post-list">
-      <div class="post-item" title="记录一次部署一个小网页到gitee的路程">
-        <span class="time-m-d">2021-01-08</span>
-        <a href="/2021/01/08/5/">
-          <span>记录一次部署一个小网页到gitee的路程</span>
-        </a>
-      </div>
-    </div>
-  
-    <div class="post-list">
-      <div class="post-item" title="Git托管服务之gitee">
-        <span class="time-m-d">2021-01-06</span>
-        <a href="/2021/01/06/gitee/">
-          <span>Git托管服务之gitee</span>
-        </a>
-      </div>
-    </div>
-  
-  <nav class="post-navigation">
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-    <span class="page-num">1 / 1</span>
+      <div class="comments-container">
+        
+
+
+
+
+
+      </div>
     
-  </nav>
-</div>
+  </div>
+
 
         <div class="footer">
   <div class="social">
