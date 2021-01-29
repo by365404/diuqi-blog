@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo删除插件的命令与使用办法</title>
+      <link href="2021/01/29/9/"/>
+      <url>2021/01/29/9/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>因为有时候在捣鼓hexo的时候会安装一些想要的《hexo插件》，但是有时候安装的插件会和自己所用的hexo起冲突。</p><p>然后自己在执行hexo命令的时候，会出现一堆报错信息。</p><p>所以有时候需要删除一些自己安装的hexo插件，首先执行命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm list</span><br></pre></td></tr></table></figure><p>随后执行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall 《你插件的名字》</span><br></pre></td></tr></table></figure><p>删除相关配置和文件</p><p>配置文件中有PLugins模块，删除对应的插件设置；</p><p>删除 node_modules/ 目录下对应的插件文件。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 有感而说 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我给我的域名续了两年的命</title>
       <link href="2021/01/15/8/"/>
       <url>2021/01/15/8/</url>

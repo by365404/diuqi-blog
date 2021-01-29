@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   
-  <title>我给我的域名续了两年的命   | 丢弃博客</title>
+  <title>hexo删除插件的命令与使用办法   | 丢弃博客</title>
 
   
     <link rel="apple-touch-icon" href="/images/favicon.png">
@@ -101,19 +101,19 @@
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
-      <div class="post-title">我给我的域名续了两年的命</div>
+      <div class="post-title">hexo删除插件的命令与使用办法</div>
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime" title="Update time"></i>
-          2021-01-15
+          2021-01-29
         </span>
         
               <span class="post-tags">
                 <i class="iconfont icon-tags" title="Tags"></i>
                 
                 <span class="span--tag">
-                  <a href="/tags/%E5%9F%9F%E5%90%8D/" title="域名">
-                    <b>#</b> 域名
+                  <a href="/tags/hexo%E6%8F%92%E4%BB%B6/" title="hexo插件">
+                    <b>#</b> hexo插件
                   </a>
                 </span>
                 
@@ -121,25 +121,22 @@
           
       </div>
       <div class="markdown-body">
-        <p>话说昨晚上看到一群里说：有腾讯云的羊毛可以薅，并且几乎是全场景的续费代金卷，足足100元哦。</p>
-<p>所以哥们顺手就加入了薅羊毛的队伍。手气不错薅了一张，附图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/haoyangmao.jpg" alt="我给我的域名续了两年的命"></p>
-<p>话说昨晚上还在纠结到底买啥呢！</p>
-<p>今天正好看看域名的到期时间，看着.net的续费竟然68一年，总感觉有那么一点小贵。</p>
-<p>本着能省一点是一点的心态，直接续费得了。</p>
-<p>这样就等于续年费68的域名，哥们36买的两年使用权。</p>
-<p>毕竟这玩意儿以后说不准就没了，能赶上也算是运气不错哈。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/haoyangmao1.jpg" alt="我给我的域名续了两年的命"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/haoyangmao2.jpg" alt="我给我的域名续了两年的命"></p>
-<p>哇咔咔~~~</p>
-<p>O(∩_∩)O</p>
+        <p>因为有时候在捣鼓hexo的时候会安装一些想要的《hexo插件》，但是有时候安装的插件会和自己所用的hexo起冲突。</p>
+<p>然后自己在执行hexo命令的时候，会出现一堆报错信息。</p>
+<p>所以有时候需要删除一些自己安装的hexo插件，首先执行命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm list</span><br></pre></td></tr></table></figure>
+<p>随后执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall 《你插件的名字》</span><br></pre></td></tr></table></figure>
+<p>删除相关配置和文件</p>
+<p>配置文件中有PLugins模块，删除对应的插件设置；</p>
+<p>删除 node_modules/ 目录下对应的插件文件。</p>
 
       </div>
       
         <div class="prev-or-next">
           <div class="post-foot-next">
             
-              <a href="/2021/01/11/docsify/" target="_self">
+              <a href="/2021/01/15/8/" target="_self">
                 <i class="iconfont icon-chevronleft"></i>
                 <span>Prev</span>
               </a>
@@ -148,15 +145,15 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime" title="Update time"></i>
-              2021-01-15
+              2021-01-29
             </span>
             
                   <span class="post-tags">
                     <i class="iconfont icon-tags" title="Tags"></i>
                     
                     <span class="span--tag">
-                      <a href="/tags/%E5%9F%9F%E5%90%8D/" title="域名">
-                        <b>#</b> 域名
+                      <a href="/tags/hexo%E6%8F%92%E4%BB%B6/" title="hexo插件">
+                        <b>#</b> hexo插件
                       </a>
                     </span>
                     
@@ -164,11 +161,6 @@
               
           </div>
           <div class="post-foot-prev">
-            
-              <a href="/2021/01/29/9/" target="_self">
-                <span>Next</span>
-                <i class="iconfont icon-chevronright"></i>
-              </a>
             
           </div>
         </div>
