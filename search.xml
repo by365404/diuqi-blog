@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>保姆级的安装hexo</title>
+      <link href="2021/02/14/11/"/>
+      <url>2021/02/14/11/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一直想写一下hexo博客的搭建方法的，但是自己知道自己的<code>几斤几两</code>，所以也不想耽误别人和误导别人。</p><p>直到今天正好在网上看到了一位大神录制了一个保姆级的hexo博客搭建教程，我看过之后，感觉这位大神所发布的教程实在是太完整和实用了，特此引用这位大神的教程来写这一篇文章。</p><blockquote><p>大神的教程在下方哦。</p></blockquote><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=44544186&bvid=BV1Yb411a7ty&cid=158772893&page=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div><p>笔芯 O(∩_∩)O</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 有感而说 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2021年的第一天</title>
       <link href="2021/02/12/10/"/>
       <url>2021/02/12/10/</url>
