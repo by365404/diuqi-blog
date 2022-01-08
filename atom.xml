@@ -6,7 +6,7 @@
   <link href="https://blog.diuqi.net/atom.xml" rel="self"/>
   
   <link href="https://blog.diuqi.net/"/>
-  <updated>2021-12-26T02:24:42.424Z</updated>
+  <updated>2022-01-08T06:53:46.250Z</updated>
   <id>https://blog.diuqi.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2022年啦</title>
+    <link href="https://blog.diuqi.net/2022/01/08/18/"/>
+    <id>https://blog.diuqi.net/2022/01/08/18/</id>
+    <published>2022-01-08T06:35:10.000Z</published>
+    <updated>2022-01-08T06:53:46.250Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2022年啦，时间过的真快呀。</p><p>总结一下自己2021年的365天吧，具体的我也记不太清楚了，反正2021年过的挺像一个<strong>机械</strong>的日子，几乎所有的时间都是在上班和睡觉中度过，就算偶尔有空，那也是在去往上班的路上。</p><p>2021年我等同于说是做了三份工作，不是说换工作，是每天去往三个地方打工，几乎说是每天工作的时间大概排在16个小时吧，很累很累！</p><p>当然收获也算不错的。毕竟那么累么。不像2019年那会，手里最多就几千块钱。那时候几千块钱还要过年的时候还要用。那会儿真的挺苦逼+穷逼啊，哈哈</p><p>今年手里算是有一点点的闲钱了。</p><blockquote><p>金钱真的是一个好东西，几乎能解决这个世界上99.9%的问题，</p></blockquote><hr><p>这不是马上又要年底了么，也是咱们国人统一的大节日—<strong>春节</strong></p><p>也终于可以在这个春节期间好好的休息几天了。</p><p>2022给自己加油，期待2022我兜里的人民币在翻一翻。</p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/2022.jpg" alt="2022年，加油"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="有感而说" scheme="https://blog.diuqi.net/categories/%E6%9C%89%E6%84%9F%E8%80%8C%E8%AF%B4/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.diuqi.net/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>冒个泡</title>
@@ -490,35 +514,6 @@
     <category term="WebDav" scheme="https://blog.diuqi.net/tags/WebDav/"/>
     
     <category term="网盘" scheme="https://blog.diuqi.net/tags/%E7%BD%91%E7%9B%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我搭建hexo+github博客所遇到的那些“坑”之文章中插入图片与影音</title>
-    <link href="https://blog.diuqi.net/2020/12/21/3/"/>
-    <id>https://blog.diuqi.net/2020/12/21/3/</id>
-    <published>2020-12-21T01:35:29.000Z</published>
-    <updated>2020-12-21T02:45:20.792Z</updated>
-    
-    <content type="html"><![CDATA[<p>话说，博客搭建起来之后，肯定要大展身手的去写点文章啥的，但是发现《Markdown语法》和所见所得的那种编辑器是不一样的！</p><p>《Markdown语法》的编写给我的感觉就像是一个敲代码的大神，那种各种命令各种手指翻飞的场景一样！给我的感觉就像我就是一个大神。</p><p>虽然《Markdown语法》让我编写东西的感觉很爽，但是不得不说的就是hexo有一个弊端，那就是没办法像普通的编辑器那样小白的操作，比如写文章的时候需要一点点的配图和影音类的东西。</p><p>那么解决办法肯定是有的。</p><h2 id="HEXO文章中插入图片"><a href="#HEXO文章中插入图片" class="headerlink" title="HEXO文章中插入图片"></a>HEXO文章中插入图片</h2><p>在文章中加入图片的办法有两个方法。</p><h3 id="第一种方法"><a href="#第一种方法" class="headerlink" title="第一种方法"></a>第一种方法</h3><p>直接添加一个插件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure><p>具体的方法请移步至：<a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p><p>我就不在这得瑟了，毕竟大神的操作要比我这种小白的要好很多很多的，</p><h3 id="第二种方法"><a href="#第二种方法" class="headerlink" title="第二种方法"></a>第二种方法</h3><p>这里就是要用到的就是图床了，自己的文章图片可以直接上传到这类的图床里，直接引用就行。</p><p>引用方式就是《Markdown语法》中的图片引用方式。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![自己想写的文字](http://images2018.cnblogs.com/blog/1003156/201806/1003156-20180604175546711-227291592.png)</span><br></pre></td></tr></table></figure><p>毕竟网上的图床还是不少的。</p><hr><p>总结一下。</p><p>hexo文章中插入图片的方法目前为止，这是我知道的两种方法，当然大神还有N中方法的，这个需要我在去学习了。</p><h2 id="hexo文章中插入视频和音乐"><a href="#hexo文章中插入视频和音乐" class="headerlink" title="hexo文章中插入视频和音乐"></a>hexo文章中插入视频和音乐</h2><h3 id="hexo文章中插入音乐的方法"><a href="#hexo文章中插入音乐的方法" class="headerlink" title="hexo文章中插入音乐的方法"></a>hexo文章中插入音乐的方法</h3><p>话说在hexo文章中插入音乐的方法我只找到了两种方法。</p><ul><li>1.引用网易云音乐的<code>iframe</code></li></ul><ul><li><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=3932159&auto=1&height=66"></iframe></li><li><p>就像上面的这样，可以直接引用的，但是这个方法有一个弊端，那就是网易云音乐里没有的音乐<strong>很多音乐由于版权原因无法生成外链！！！</strong> 这个很尴尬，而且这个影响网站的SEO，逼格也不够高。</p></li><li><p>但是这个是最简单的方法。</p></li><li><p>2.用插件</p></li><li><ul><li>这个也是有一个插件的，插件的名字就是：</li><li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure></li><li>这个插件的具体使用方法：<a href="https://github.com/MoePlayer/hexo-tag-aplayer">https://github.com/MoePlayer/hexo-tag-aplayer</a></li><li>毕竟是大神的操作，我就不多说了哈。</li></ul></li></ul><h2 id="hexo文章中插入视频"><a href="#hexo文章中插入视频" class="headerlink" title="hexo文章中插入视频"></a>hexo文章中插入视频</h2><p>引用哔哩哔哩的外链<code>iframe</code>。这个就和引用网易云一样的操作就好。</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=57896813&bvid=BV184411A7Qd&cid=101036716&page=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div><hr><p>总结一下，在hexo文章中要插入<code>图片</code> <code>音乐</code> <code>视频</code>这类辅助文章的外媒体还是有一点“骚”操作的哈。</p><p>所以先记录一下，免得以后自己忘了也不用在去网上找了，嘎嘎</p><p>O(∩_∩)O 笔芯~~~~~~~~~~</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;话说，博客搭建起来之后，肯定要大展身手的去写点文章啥的，但是发现《Markdown语法》和所见所得的那种编辑器是不一样的！&lt;/p&gt;
-&lt;p&gt;《Markdown语法》的编写给我的感觉就像是一个敲代码的大神，那种各种命令各种手指翻飞的场景一样！给我的感觉就像我就是一个大神。&lt;/p</summary>
-      
-    
-    
-    
-    <category term="有感而说" scheme="https://blog.diuqi.net/categories/%E6%9C%89%E6%84%9F%E8%80%8C%E8%AF%B4/"/>
-    
-    
-    <category term="博客" scheme="https://blog.diuqi.net/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="hexo" scheme="https://blog.diuqi.net/tags/hexo/"/>
-    
-    <category term="Markdown语法" scheme="https://blog.diuqi.net/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
