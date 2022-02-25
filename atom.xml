@@ -6,7 +6,7 @@
   <link href="https://blog.diuqi.net/atom.xml" rel="self"/>
   
   <link href="https://blog.diuqi.net/"/>
-  <updated>2022-01-08T06:53:46.250Z</updated>
+  <updated>2022-02-25T12:48:35.556Z</updated>
   <id>https://blog.diuqi.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>时间好快呀</title>
+    <link href="https://blog.diuqi.net/2022/02/25/19/"/>
+    <id>https://blog.diuqi.net/2022/02/25/19/</id>
+    <published>2022-02-25T12:40:58.000Z</published>
+    <updated>2022-02-25T12:48:35.556Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>  话说时间过的好快，年前还在感慨马上要过年了，但是现在回过头来看，这不是已经过完年了么！</p><p>  今天突然发现已经<strong>正月二十五</strong>了！</p><p>  好像过春节这种节日，对于我这种年龄的人来说，无感啊！！！！</p><p>  并且感觉过春节好累······</p><p>  哎······</p><p>  时间好快，父母的白发越来越多！</p><p>  随着自己的年龄增加，感觉以前的快乐时光离自己越来越远！</p><p>  或许这就是成年人吧！</p><p>  不管怎么样，让父母过一个舒心的晚年，至于自己爱鸡巴咋样咋样吧。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="有感而说" scheme="https://blog.diuqi.net/categories/%E6%9C%89%E6%84%9F%E8%80%8C%E8%AF%B4/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.diuqi.net/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>2022年啦</title>
@@ -475,34 +499,6 @@
     
     
     <category term="魔鬼城" scheme="https://blog.diuqi.net/tags/%E9%AD%94%E9%AC%BC%E5%9F%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TeraCloud：日本免费10GB网盘,支持WebDav。</title>
-    <link href="https://blog.diuqi.net/2020/12/30/teracloud/"/>
-    <id>https://blog.diuqi.net/2020/12/30/teracloud/</id>
-    <published>2020-12-30T09:04:36.000Z</published>
-    <updated>2020-12-30T09:41:12.661Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>特别提醒：如果您使用的是免费帐户，并且尚未登录90天，则TeraCLOUD上的帐户和数据将被删除。并且尽量别放牵涉到版权的东西。</strong></p><p>Teracloud是一家日本的网盘服务商，免费套餐10G容量，加上邀请码可获得额外5G。速度还是不错的，比欧美的要好，并且支持WEBDAV（可以直接挂载在电脑上用），要知道支持WEBDAV的网盘并不多。</p><p>首先当然是创建账户，虽然是日文网站，但是有谷歌翻译也很简单。</p><p><a href="https://teracloud.jp/en/">https://teracloud.jp/en/</a></p><p>填入邀请码<strong>XBETM</strong>，可获得另外10G加成。</p><h2 id="Windows挂载"><a href="#Windows挂载" class="headerlink" title="Windows挂载"></a>Windows挂载</h2><p>在“计算机”中单击右键，选择“添加一个网络位置”</p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/ss1.jpg"></p><p>输入WebDav地址：<a href="https://seto.teracloud.jp/dav/">https://seto.teracloud.jp/dav/</a></p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/ss2.jpg"></p><p>单击下一步后，输入自己的用户名和密码</p><p>完成即可。</p><p>我挂载在我电脑上的样子。附图：</p><p><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/QQ%E6%88%AA%E5%9B%BE20201230174037.jpg"></p><hr><p>总结：TeraCloud在网上也是被很多人称之为老牌网盘，这就是证明了这个网盘还是比较靠谱的，所以值得自己放一些资料什么的，但是也别放一些重要的资料，毕竟这玩意还是小心一点的好哈。</p><p>速度方面还是蛮不错的，不管是上传还是下载，比百度网盘好太多了，最起码没有网速限制。</p><p>缺点：只有日文和英文，对于中国的使用者而言，稍微的有点点难度。</p><p>毕竟这是一个日本的网盘服务商，不过还是可以用翻译解决的哈。</p><p><strong>特别提醒：如果您使用的是免费帐户，并且尚未登录90天，则TeraCLOUD上的帐户和数据将被删除。并且尽量别放牵涉到版权的东西。</strong></p><p>所以总体来说还是值得玩一玩的哈。</p><p>O(∩_∩)O~~~~~</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="好物分享" scheme="https://blog.diuqi.net/categories/%E5%A5%BD%E7%89%A9%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="teracloud" scheme="https://blog.diuqi.net/tags/teracloud/"/>
-    
-    <category term="WebDav" scheme="https://blog.diuqi.net/tags/WebDav/"/>
-    
-    <category term="网盘" scheme="https://blog.diuqi.net/tags/%E7%BD%91%E7%9B%98/"/>
     
   </entry>
   
