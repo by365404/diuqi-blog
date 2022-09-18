@@ -6,7 +6,7 @@
   <link href="https://blog.diuqi.net/atom.xml" rel="self"/>
   
   <link href="https://blog.diuqi.net/"/>
-  <updated>2022-07-13T14:11:22.667Z</updated>
+  <updated>2022-09-18T04:06:59.751Z</updated>
   <id>https://blog.diuqi.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>终于抢到华为手机了</title>
+    <link href="https://blog.diuqi.net/2022/09/18/21/"/>
+    <id>https://blog.diuqi.net/2022/09/18/21/</id>
+    <published>2022-09-18T03:49:30.000Z</published>
+    <updated>2022-09-18T04:06:59.751Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>  话说华为自9月6日开发布会后，所介绍的华为mate50pro手机简直太好了，真心心动啊，咱也想尝试一下这个新的手机。</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=557773198&bvid=BV1Le4y1o7ay&cid=825516090&page=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div><p>但是一直就抢不到啊，感觉买这个手机简直太难了，在我持续的关注直播中终于抢到了一台mate50，只是没抢到mate50pro感觉好遗憾啊！</p><p>买华为的最新手机简直太难了！！！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="有感而说" scheme="https://blog.diuqi.net/categories/%E6%9C%89%E6%84%9F%E8%80%8C%E8%AF%B4/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.diuqi.net/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>冒个泡，顺便给博客种一棵草</title>
@@ -462,30 +486,6 @@
     <updated>2021-01-10T11:09:11.457Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>因为最近家乡这边有了新馆肺炎的疫情，所以我们这边基本全部停工停产了，我也被无一幸免的居家隔离了，所以本着在家闲着也是闲着心态，不如静下心来学习一点网络知识。</p><p>毕竟我是一个连初中都没上完的人，所以在网上找了一个蛮有难度的挑战。</p><p>这个知识点就是：</p><blockquote><p>利用Git部署到gitee的一个项目。</p></blockquote><p>首先我在网络中找到了一款<strong>消消乐</strong>的一个小源码，所以决定把这个段代码部署到gitee中。</p><p>最终结果还是不错的。看一下我的成果：</p><p><a href="https://diuqi.gitee.io/xiaoxiaole/">https://diuqi.gitee.io/xiaoxiaole/</a></p><hr><h2 id="部署中的命令与意思。"><a href="#部署中的命令与意思。" class="headerlink" title="部署中的命令与意思。"></a>部署中的命令与意思。</h2><p>首先我在网上找了一下需要的部署方法，他们分别是：</p><p>第一步git初始化命令。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>第二步从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到gitee仓库。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 你的git项目地址</span><br></pre></td></tr></table></figure><p>第三步将码云上的仓库pull到本地文件夹。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure><p>第四步使用git add . （. 表示所有的）或者 git add + 文件名 // 将文件保存到缓存区。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>第五步使用git commit -m ‘新添加的文件内容描述’ //添加文件描述</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m ‘新添加的文件内容描述’</span><br></pre></td></tr></table></figure><p>使用git push origin master ，将本地仓库推送到远程仓库。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure><p>到这里你的项目就放到码云上了，到码云库页面刷新，你会看到刚刚放上去的文件。</p><hr><p>总结一下，在使用git命令中，我个人还是属于算是第一次的使用，所以难免会有一些出错的地方，不过幸运的是我这第一次使用git命令的时候还是没有出现错误的。</p><p>看看效果：</p><p><a href="https://diuqi.gitee.io/xiaoxiaole/">https://diuqi.gitee.io/xiaoxiaole/</a></p><hr><iframe src="https://diuqi.gitee.io/xiaoxiaole/" width="100%" height="650px" frameborder="no" border="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="gitee" scheme="https://blog.diuqi.net/categories/gitee/"/>
-    
-    
-    <category term="gitee" scheme="https://blog.diuqi.net/tags/gitee/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git托管服务之gitee</title>
-    <link href="https://blog.diuqi.net/2021/01/06/gitee/"/>
-    <id>https://blog.diuqi.net/2021/01/06/gitee/</id>
-    <published>2021-01-06T09:03:10.000Z</published>
-    <updated>2021-01-06T09:33:32.907Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近注册了一个gitee的账号，因为这个是国人打造的一款Git 托管服务，毕竟有时候GitHub的访问速度实在是有点糟糕的。</p><p>所以说gitee在速度方面还是不错的，并且这个我个人感觉要比coding稳定，并且gitee还支持了Pages功能，这个对于我这种草根来讲，感觉真的是蛮赞的。嘎嘎~~</p><p>Gitee 提供免费的 Git 仓库，还集成了代码质量检测、项目演示等功能。对于团队协作开发，Gitee 还提供了项目管理、代码托管、文档管理的服务，5 人以下小团队免费。</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://cdn.jsdelivr.net/gh/by365404/img/img/QQ%E5%9B%BE%E7%89%8720210106173222.jpg"></h2><p>我的gitee仓库地址：</p><p><a href="https://gitee.com/diuqi">https://gitee.com/diuqi</a></p><p>我的Gitee Pages页面</p><p><a href="https://diuqi.gitee.io/">https://diuqi.gitee.io/</a></p>]]></content>
     
     
       
